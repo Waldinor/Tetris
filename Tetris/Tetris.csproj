@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Background.png" />
+    <None Remove="Assets\Empty-mino.png" />
+    <None Remove="Assets\I-mino.png" />
+    <None Remove="Assets\Icon.ico" />
+    <None Remove="Assets\J-mino.png" />
+    <None Remove="Assets\L-mino.png" />
+    <None Remove="Assets\S-mino.png" />
+    <None Remove="Assets\Square-mino.png" />
+    <None Remove="Assets\T-mino.png" />
+    <None Remove="Assets\TileBlue.png" />
+    <None Remove="Assets\TileCyan.png" />
+    <None Remove="Assets\TileEmpty.png" />
+    <None Remove="Assets\TileGreen.png" />
+    <None Remove="Assets\TileOrange.png" />
+    <None Remove="Assets\TilePurple.png" />
+    <None Remove="Assets\TileRed.png" />
+    <None Remove="Assets\TileYellow.png" />
+    <None Remove="Assets\Z-mino.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Background.png" />
+    <Resource Include="Assets\Empty-mino.png" />
+    <Resource Include="Assets\I-mino.png" />
+    <Resource Include="Assets\Icon.ico" />
+    <Resource Include="Assets\J-mino.png" />
+    <Resource Include="Assets\L-mino.png" />
+    <Resource Include="Assets\S-mino.png" />
+    <Resource Include="Assets\Square-mino.png" />
+    <Resource Include="Assets\T-mino.png" />
+    <Resource Include="Assets\TileBlue.png" />
+    <Resource Include="Assets\TileCyan.png" />
+    <Resource Include="Assets\TileEmpty.png" />
+    <Resource Include="Assets\TileGreen.png" />
+    <Resource Include="Assets\TileOrange.png" />
+    <Resource Include="Assets\TilePurple.png" />
+    <Resource Include="Assets\TileRed.png" />
+    <Resource Include="Assets\TileYellow.png" />
+    <Resource Include="Assets\Z-mino.png" />
+  </ItemGroup>
+
+</Project>
